@@ -1,0 +1,24 @@
+---
+title: 'HW1'
+author: "褚凡瑋"
+date: "2018年10月5日"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 作業一
+
+這是**作業一**
+
+```{r}
+1+1
+1+1+1+1+2+300
+```
+# Code
+
+```{r ref.label = knitr::all_labels(), echo = TRUE, eval = FALSE}
+# this R markdown chunk generates a code appendix
+```
